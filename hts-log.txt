@@ -1,0 +1,12 @@
+HTTrack3.49-2 launched on Tue, 22 Dec 2020 11:21:55 at https://themes.3rdwavemedia.com/devcard/bs4/
+(httrack https://themes.3rdwavemedia.com/devcard/bs4/ -O /home/bawantha/Downloads/devcard )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:23:03	Error: 	"Not Found" (404) at link https://themes.3rdwavemedia.com/devcard/bs4/projects.html (from https://themes.3rdwavemedia.com/devcard/bs4/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 8 seconds : 65 links scanned, 63 files written (5495163 bytes overall) [5511393 bytes received at 81049 bytes/sec], 16.2 requests per connection
+(1 errors, 0 warnings, 0 messages)
