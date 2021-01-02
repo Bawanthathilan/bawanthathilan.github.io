@@ -23,7 +23,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
 	<!-- FontAwesome JS -->
-    <script defer src="assets/fontawesome/js/all.js"></script>
+	<script defer src="assets/fontawesome/js/all.js"></script>
+	<script
+  	src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+	</script>
+	<link
+	rel="stylesheet"
+	href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
     
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="assets/plugins/tiny-slider/tiny-slider.css">
@@ -132,7 +138,6 @@
 		<section class="overview-section p-3 p-lg-5">
 			<div class="container">
 				<h2 class="section-title font-weight-bold mb-3">Tools and technologies I Use</h2>
-				<!-- <div class="section-intro mb-5">I have experience building software for clients . Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a href="resume.html">online resume</a> and <a href="portfolio.html">project portfolio</a>.</div> -->
 				<div class="row">
 					<div class="item col-6 col-lg-3">
 						<div class="item-inner">
@@ -491,6 +496,22 @@
 		
 		<section class="latest-blog-section p-3 p-lg-5">
 			<div class="container">
+				<h2 class="section-title font-weight-bold mb-5">Opensource <small>❤</small> Contributions</h2>
+				<div class="row">
+					<div class="calendar">
+						<!-- Loading stuff -->
+						Loading the data just for you.
+					</div>
+				</div><!--//row-->
+				<div class="text-center py-3"></div>
+			</div><!--//container-->
+			
+		</section><!--//latest-blog-section-->
+
+		<div class="container"><hr></div>
+		
+		<section class="latest-blog-section p-3 p-lg-5">
+			<div class="container">
 				<h2 class="section-title font-weight-bold mb-5">Latest Blog Posts</h2>
 				<div class="row">
 					<div id="medium-widget"></div>
@@ -539,7 +560,11 @@
 	<script src="assets/js/testimonials.js"></script>
 
 
-	 
+	<script>
+		GitHubCalendar(".calendar", "bawanthathilan");
+		// or enable responsive functionality
+		GitHubCalendar(".calendar", "bawanthathilan", { responsive: true });
+	</script>
 	
 	<!-- Dark Mode -->
 	<script src="assets/plugins/js-cookie.min.js"></script>
